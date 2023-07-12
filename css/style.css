@@ -34,7 +34,7 @@ body{
 }
 
 #links{
-    max-width: 675px;
+    max-width: 375px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -52,6 +52,25 @@ body{
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
 }
+.link img {
+
+    width: 54px; /* Adjust the width of the icon as needed */
+    height: 34px; /* Adjust the height of the icon as needed */
+    float: left;
+    width: 50px;
+    height: 50px;
+    left: 9px;
+    border-radius: 50%!important;
+    margin-bottom: 0!important;
+    top: 50%;
+    margin-top: -15px;
+
+  }
+.links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
 
 .link:hover{
     background-color: var(--bgColor);
@@ -70,10 +89,10 @@ h1{
     color: #E6E6E6;
     font-family: var(--font);
 }
-h2{
+h3{
     text-align: center;
     margin-bottom: 20px;
-    color: #E6E6E6;
+    color: #a02f2f;
     font-family: var(--font);
 }
 h6{
