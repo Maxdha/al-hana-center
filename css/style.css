@@ -118,3 +118,9 @@ h6{
     margin-bottom: 20px;
     padding: 17px;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
